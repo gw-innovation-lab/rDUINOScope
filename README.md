@@ -1,4 +1,4 @@
-#rDUINOScope
+# rDUINOScope
 
 THE WORLD'S FIRST STAND ALONE ARDUINO BASED TELESCOPE CONTROL GOTO (handheld controller). 
 
@@ -17,19 +17,18 @@ HACKADAY.IO Project: https://hackaday.io/project/21024-rduinoscope
 Facebook: https://www.facebook.com/rDUINOScope/
 
 
-#rDUINOScope v2.3.1 Boiana EQ 
-===========================================================
+## rDUINOScope v2.3.1 Boiana EQ 
+
 Release date: 03 August 2017
 Status: Stable Version
 Author: Dessislav Gouzgounov / Десислав Гузгнов /(deskog@gmail.com) 
-
 
 v2.3.1 aims to bring all existing hardware platforms into one code base. Additionally this version introduces new features to the rDUINOScope like Screensaver, TFT brightness, MosFET to control power to DRV8825 and etc.
 
 Current release will also be used as a base to add the Alt/Az changes.
 
-New features added in v2.3.1:
-===========================================================
+## New features added in v2.3.1:
+
 - Brings all existing flavours of the hardware to use same code!
 - Hardware Changes!!! - Plese reffer to the HACKADAY instructions!
 - Screen Brightness control;
@@ -42,9 +41,8 @@ New features added in v2.3.1:
 	- SlewTo speed issues for low amperage;
 
 
+## New features added in v2.3:
 
-New features added in v2.3:
-===========================================================
 - Code Optimization for Performance (SlewTo now capable of speeds > 3 deg/sec);
 - Added Celestial, Lunar and Solar tracking speeds;
 - Added new Main Menu system for more functionality;
@@ -53,14 +51,12 @@ New features added in v2.3:
 - Added build in Star Atlas showing current telescope position;
 - Shows current Firmware version on Loading screen and on Bluetooth request using LX200 protocol;
 - Bug fixes:
-	o Wrong DEC movement for negative DEC values passed over Bluetooth;
-	o LST revised in the format XX:XX;
+	- Wrong DEC movement for negative DEC values passed over Bluetooth;
+	- LST revised in the format XX:XX;
 
 
+## New features added in v2.1:
 
-
-New features added in v2.1:
-===========================================================
 - Added “1 Star Alignment” Method;
 - Added “Iterative Alignment” Method;
 - Added 200 brightest stars to be used in alignment procedures;
@@ -68,9 +64,7 @@ New features added in v2.1:
 - Added Bluetooth connection with PC;
 - Code has been refactored for easy reading/editing;
 - Bug fixes:
-	o Wrong DEC movement for negative DEC values;
-	o Revised RA movement formula;
-	o OnScreen messages have been fixed;
-	o 1px. Buttons move after press event was fixed;
-
-
+	- Wrong DEC movement for negative DEC values;
+	- Revised RA movement formula;
+	- OnScreen messages have been fixed;
+	- 1px. Buttons move after press event was fixed;
